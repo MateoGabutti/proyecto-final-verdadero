@@ -1,0 +1,505 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+article{
+    .grid-catalogo-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "img-catalogo1 img-catalogo2 img-catalogo3"
+        "img-catalogo4 img-catalogo5 img-catalogo6"
+        "img-catalogo7 img-catalogo8 img-catalogo9"
+        "img-catalogo10 img-catalogo11 img-catalogo12";
+        .img-catalogo1{
+            grid-area: img-catalogo1;
+        }
+        .img-catalogo2{
+            grid-area: img-catalogo2;
+        }
+        .img-catalogo3{
+            grid-area: img-catalogo3;
+        }
+        .img-catalogo4{
+            grid-area: img-catalogo4;
+        }
+        .img-catalogo5{
+            grid-area: img-catalogo5;
+        }
+        .img-catalogo6{
+            grid-area: img-catalogo6;
+        }
+        .img-catalogo7{
+            grid-area: img-catalogo7;
+        }
+        .img-catalogo8{
+            grid-area: img-catalogo8;
+        }
+        .img-catalogo9{
+            grid-area: img-catalogo9;
+        }
+        .img-catalogo10{
+            grid-area: img-catalogo10;
+        }
+        .img-catalogo11{
+            grid-area: img-catalogo11;
+        }
+        .img-catalogo12{
+            grid-area: img-catalogo12;
+        }
+        .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12{
+            width: 300px;
+            height: 450px;
+            margin: 30px;
+            object-fit: cover;
+            border: 3px solid $black;
+        }
+    }
+    @media screen and (max-width: 2000px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3 img-catalogo4" 
+            "img-catalogo5 img-catalogo6 img-catalogo7 img-catalogo8"
+            "img-catalogo9 img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 300px;
+                height: 450px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 1450px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3"
+            "img-catalogo4 img-catalogo5 img-catalogo6"
+            "img-catalogo7 img-catalogo8 img-catalogo9"
+            "img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 250px;
+                height: 400px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 1100px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3"
+            "img-catalogo4 img-catalogo5 img-catalogo6"
+            "img-catalogo7 img-catalogo8 img-catalogo9"
+            "img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 250px;
+                height: 400px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 950px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3"
+            "img-catalogo4 img-catalogo5 img-catalogo6"
+            "img-catalogo7 img-catalogo8 img-catalogo9"
+            "img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 200px;
+                height: 350px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 800px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3"
+            "img-catalogo4 img-catalogo5 img-catalogo6"
+            "img-catalogo7 img-catalogo8 img-catalogo9"
+            "img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 150px;
+                height: 300px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 640px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "img-catalogo1 img-catalogo2 img-catalogo3"
+            "img-catalogo4 img-catalogo5 img-catalogo6"
+            "img-catalogo7 img-catalogo8 img-catalogo9"
+            "img-catalogo10 img-catalogo11 img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 120px;
+                height: 250px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+            }
+        }
+    }
+    @media screen and (max-width: 550px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: 
+            "img-catalogo1" 
+            "img-catalogo2"
+            "img-catalogo3"
+            "img-catalogo4" 
+            "img-catalogo5"
+            "img-catalogo6"
+            "img-catalogo7" 
+            "img-catalogo8" 
+            "img-catalogo9"
+            "img-catalogo10"
+            "img-catalogo11"
+            "img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 280px;
+                height: 450px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+                margin-left: 100px;
+            }
+        }
+    }
+    @media screen and (max-width: 460px){
+        .grid-catalogo-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: 
+            "img-catalogo1" 
+            "img-catalogo2"
+            "img-catalogo3"
+            "img-catalogo4" 
+            "img-catalogo5"
+            "img-catalogo6"
+            "img-catalogo7" 
+            "img-catalogo8" 
+            "img-catalogo9"
+            "img-catalogo10"
+            "img-catalogo11"
+            "img-catalogo12";
+            .img-catalogo1{
+                grid-area: img-catalogo1;
+            }
+            .img-catalogo2{
+                grid-area: img-catalogo2;
+            }
+            .img-catalogo3{
+                grid-area: img-catalogo3;
+            }
+            .img-catalogo4{
+                grid-area: img-catalogo4;
+            }
+            .img-catalogo5{
+                grid-area: img-catalogo5;
+            }
+            .img-catalogo6{
+                grid-area: img-catalogo6;
+            }
+            .img-catalogo7{
+                grid-area: img-catalogo7;
+            }
+            .img-catalogo8{
+                grid-area: img-catalogo8;
+            }
+            .img-catalogo9{
+                grid-area: img-catalogo9;
+            }
+            .img-catalogo10{
+                grid-area: img-catalogo10;
+            }
+            .img-catalogo11{
+                grid-area: img-catalogo11;
+            }
+            .img-catalogo12{
+                grid-area: img-catalogo12;
+            }
+            .img-catalogo1,.img-catalogo2, .img-catalogo3, .img-catalogo4, .img-catalogo5, .img-catalogo6, .img-catalogo7, .img-catalogo8, .img-catalogo9, .img-catalogo10, .img-catalogo11, .img-catalogo12 {
+                width: 280px;
+                height: 420px;
+                margin: 30px;
+                object-fit: cover;
+                border: 3px solid $black;
+                margin-left: 10%;
+            }
+        }
+    }
+}

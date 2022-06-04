@@ -1,0 +1,179 @@
+@import "../variables/variables.scss";
+@mixin titulo{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    border: 1px solid $black;
+    background-color: $grey;
+}
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+@mixin imagenes-index {
+    margin: 8px;
+    width: 90%;
+}
+@mixin a-index{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: $blue;
+    &:hover{
+    color: $red;
+    }
+}
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+
+@mixin buzos-del-1-al-10{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+}
+@mixin buzos-precio-del-1-al-10{
+    margin-left: 40%;
+    text-decoration: none;
+    color: $white;
+    font-size: 20px
+}
+/*BUZOS media max-width: 2000px*/
+@mixin buzos-del-1-al-10-2000{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 20%;
+}
+/*BUZOS media max-width: 1700px*/
+@mixin buzos-del-1-al-10-1700{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 14.5%;
+}
+/*BUZOS media max-width: 1400px*/
+@mixin buzos-del-1-al-10-1400{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 14.5%;
+}
+
+/*BUZOS media max-width: 992px*/
+@mixin buzos-del-1-al-10-992{
+    object-fit: cover;
+    width: 170px;
+    height: 270px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 16%;
+}
+
+/*BUZOS media max-width: 750px*/
+@mixin buzos-del-1-al-10-750{
+    object-fit: cover;
+    width: 130px;
+    height: 230px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 18%;
+}
+@mixin buzos-del-1-al-10-527{
+    object-fit: cover;
+    align-content: center;
+    width: 200px;
+    height: 280px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 18%;
+}
+
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+
+/*para escritorio*/
+@mixin remeras-del-1-al-10{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+}
+@mixin remeras-precio-del-1-al-10{
+    margin-left: 40%;
+    text-decoration: none;
+    color: $white;
+    font-size: 20px
+}
+/*REMERAS media max-width: 2000px*/
+@mixin remeras-del-1-al-10-2000{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 20%;
+}
+/*REMERAS media max-width: 1700px*/
+@mixin remeras-del-1-al-10-1700{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 14.5%;
+}
+/*REMERAS media max-width: 1400px*/
+@mixin remeras-del-1-al-10-1400{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid $black;
+    border-radius: 10%;
+    margin-left: 14.5%;
+}
+/*REMERAS media max-width: 992px*/
+@mixin remeras-del-1-al-10-992{
+    object-fit: cover;
+    width: 170px;
+    height: 270px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-left: 16%;
+}
+/*REMERAS media max-width: 750px*/
+@mixin remeras-del-1-al-10-750{
+    object-fit: cover;
+    width: 130px;
+    height: 230px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-left: 18%;
+}
+@mixin remeras-del-1-al-10-527{
+    object-fit: cover;
+    align-content: center;
+    width: 200px;
+    height: 280px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-left: 18%;
+}

@@ -1,0 +1,631 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+main{
+    .titulo{
+        @include titulo;}
+    article{
+        .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+            background-image: linear-gradient(to bottom,  darkgrey, white);
+            height: 420px;
+            margin: 10px;
+            margin-bottom: 20px;
+        }
+        .grid-remeras-container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr) ;
+            grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+            "precio1 precio2 precio3 precio4 precio5"
+            "remeras6 remeras7 remeras8 remeras9 remeras10"
+            "precio6 precio7 precio8 precio9 precio10"
+            ;
+            .remeras1{
+                grid-area: remeras1;
+            }
+            .remeras2{
+                grid-area: remeras2;
+            }
+            .remeras3{
+                grid-area: remeras3;
+            }
+            .remeras4{
+                grid-area: remeras4;
+            }
+            .remeras5{
+                grid-area: remeras5;
+            }
+            .remeras6{
+                grid-area: remeras6;
+            }
+            .remeras7{
+                grid-area: remeras7;
+            }
+            .remeras8{
+                grid-area: remeras8;
+            }
+            .remeras9{
+                grid-area: remeras9;
+            }
+            .remeras10{
+                grid-area: remeras10;
+            }
+            .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                @include remeras-del-1-al-10;
+                box-shadow: 15px 15px 15px black;
+            }
+            .precio1{
+                grid-area: precio1;
+            }
+            .precio2{
+                grid-area: precio2;
+            }
+            .precio3{
+                grid-area: precio3;
+            }
+            .precio4{
+                grid-area: precio4;
+            }
+            .precio5{
+                grid-area: precio5;
+            }
+            .precio6{
+                grid-area: precio6;
+            }
+            .precio7{
+                grid-area: precio7;
+            }
+            .precio8{
+                grid-area: precio8;
+            }
+            .precio9{
+                grid-area: precio9;
+            }
+            .precio10{
+                grid-area: precio10;
+            }
+            .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                @include remeras-precio-del-1-al-10;
+                background-color: $black;
+            }
+        }
+        @media screen and (max-width: 2000px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 420px;
+                margin: 10px;
+                margin-bottom: 20px;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr) ;
+                grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+                "precio1 precio2 precio3 precio4 precio5"
+                "remeras6 remeras7 remeras8 remeras9 remeras10"
+                "precio6 precio7 precio8 precio9 precio10"
+                ;
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-2000;
+                    box-shadow: 15px 15px 15px black;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    @include remeras-precio-del-1-al-10;
+                    background-color: $black;
+                }
+            }
+        }
+        @media screen and (max-width: 1700px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 420px;
+                margin: 10px;
+                margin-bottom: 20px;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr) ;
+                grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+                "precio1 precio2 precio3 precio4 precio5"
+                "remeras6 remeras7 remeras8 remeras9 remeras10"
+                "precio6 precio7 precio8 precio9 precio10"
+                ;
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-1700;
+                    box-shadow: 15px 15px 15px black;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    @include remeras-precio-del-1-al-10;
+                    background-color: $black;
+                }
+            }
+        }
+        @media screen and (max-width: 1400px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 380px;
+                margin: 8px;
+                margin-bottom: 15px;
+                width: 80%;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
+                "remeras1 remeras2 remeras3" 
+                "precio1 precio2 precio3" 
+                "remeras4 remeras5 remeras6" 
+                "precio4 precio5 precio6"
+                "remeras7 remeras8 remeras9" 
+                "precio7 precio8 precio9"
+                "remeras10 none none"
+                "precio10 none none";
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-1400;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    @include remeras-precio-del-1-al-10;
+                }
+            }
+        }
+        @media screen and (max-width: 992px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 340px;
+                margin: 8px;
+                margin-bottom: 15px;
+                width: 90%;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
+                "remeras1 remeras2 remeras3" 
+                "precio1 precio2 precio3" 
+                "remeras4 remeras5 remeras6" 
+                "precio4 precio5 precio6"
+                "remeras7 remeras8 remeras9" 
+                "precio7 precio8 precio9"
+                "remeras10 none none"
+                "precio10 none none";
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-992;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    @include remeras-precio-del-1-al-10;
+                }
+            }
+        }
+        @media screen and (max-width: 750px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 340px;
+                margin: 8px;
+                margin-bottom: 15px;
+                width: 70%;
+                margin-left: 10%;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas:
+                "remeras1 remeras2" 
+                "precio1 precio2" 
+                "remeras3 remeras4" 
+                "precio3 precio4"
+                "remeras5 remeras6" 
+                "precio5 precio6"
+                "remeras7 remeras8"
+                "precio7 precio8"
+                "remeras9 remeras10"
+                "precio9 precio10";
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-750;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    @include remeras-precio-del-1-al-10;
+                }
+            }
+        }
+        @media screen and (max-width: 527px){
+            .div-remeras1, .div-remeras2, .div-remeras3, .div-remeras4, .div-remeras5, .div-remeras6, .div-remeras7, .div-remeras8, .div-remeras9, .div-remeras10 {
+                background-image: linear-gradient(to bottom,  darkgrey, white);
+                height: 340px;
+                margin: 8px;
+                margin-bottom: 15px;
+                width: 100%;
+            }
+            .grid-remeras-container{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas:
+                "remeras1" 
+                "precio1" 
+                "remeras2" 
+                "precio2"
+                "remeras3" 
+                "precio3"
+                "remeras4"
+                "precio4"
+                "remeras5"
+                "precio5"
+                "remeras6"
+                "precio6"
+                "remeras7"
+                "precio7"
+                "remeras8"
+                "precio8"
+                "remeras9"
+                "precio9"
+                "remeras10"
+                "precio10";
+                .remeras1{
+                    grid-area: remeras1;
+                }
+                .remeras2{
+                    grid-area: remeras2;
+                }
+                .remeras3{
+                    grid-area: remeras3;
+                }
+                .remeras4{
+                    grid-area: remeras4;
+                }
+                .remeras5{
+                    grid-area: remeras5;
+                }
+                .remeras6{
+                    grid-area: remeras6;
+                }
+                .remeras7{
+                    grid-area: remeras7;
+                }
+                .remeras8{
+                    grid-area: remeras8;
+                }
+                .remeras9{
+                    grid-area: remeras9;
+                }
+                .remeras10{
+                    grid-area: remeras10;
+                }
+                .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
+                    @include remeras-del-1-al-10-527;
+                }
+                .precio1{
+                    grid-area: precio1;
+                }
+                .precio2{
+                    grid-area: precio2;
+                }
+                .precio3{
+                    grid-area: precio3;
+                }
+                .precio4{
+                    grid-area: precio4;
+                }
+                .precio5{
+                    grid-area: precio5;
+                }
+                .precio6{
+                    grid-area: precio6;
+                }
+                .precio7{
+                    grid-area: precio7;
+                }
+                .precio8{
+                    grid-area: precio8;
+                }
+                .precio9{
+                    grid-area: precio9;
+                }
+                .precio10{
+                    grid-area: precio10;
+                }
+                .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
+                    margin-left: 35%;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px
+                }
+            }
+        }
+    }
+}

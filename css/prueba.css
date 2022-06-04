@@ -1,0 +1,1587 @@
+@charset "UTF-8";
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
+  background-color: black; }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
+  background-color: black; }
+
+header .fondo {
+  color: white; }
+  header .fondo .font-nav {
+    color: #fff; }
+    header .fondo .font-nav:hover {
+      color: lightcoral; }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
+
+main div .img-carrousel {
+  margin: 10px;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  height: 150px; }
+
+main article .grid-index-container {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "imagen1-index imagen2-index imagen3-index" "a3-index a1-index a2-index"; }
+  main article .grid-index-container .imagen1-index {
+    grid-area: imagen1-index;
+    margin: 8px;
+    width: 90%; }
+  main article .grid-index-container .imagen2-index {
+    grid-area: imagen2-index;
+    margin: 8px;
+    width: 90%; }
+  main article .grid-index-container .imagen3-index {
+    grid-area: imagen3-index;
+    margin: 8px;
+    width: 90%; }
+  main article .grid-index-container .a1-index {
+    grid-area: a1-index;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: blue; }
+    main article .grid-index-container .a1-index:hover {
+      color: red; }
+  main article .grid-index-container .a2-index {
+    grid-area: a2-index;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: blue; }
+    main article .grid-index-container .a2-index:hover {
+      color: red; }
+  main article .grid-index-container .a3-index {
+    grid-area: a3-index;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: blue; }
+    main article .grid-index-container .a3-index:hover {
+      color: red; }
+
+@media screen and (max-width: 768px) {
+  main article .grid-index-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "imagen1-index imagen2-index imagen3-index" "a3-index a1-index a2-index"; }
+    main article .grid-index-container .imagen1-index {
+      grid-area: imagen1-index; }
+    main article .grid-index-container .imagen2-index {
+      grid-area: imagen2-index; }
+    main article .grid-index-container .imagen3-index {
+      grid-area: imagen3-index; }
+    main article .grid-index-container .a3-index {
+      grid-area: a3-index;
+      font-size: 20px; }
+    main article .grid-index-container .a1-index {
+      grid-area: a1-index;
+      font-size: 20px; }
+    main article .grid-index-container .a2-index {
+      grid-area: a2-index;
+      font-size: 20px; } }
+
+@media screen and (max-width: 500px) {
+  main article .grid-index-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "imagen1-index" "a3-index"  "imagen2-index" "a1-index" "imagen3-index" "a2-index"; }
+    main article .grid-index-container .imagen1-index, main article .grid-index-container .imagen2-index, main article .grid-index-container .imagen3-index {
+      margin-left: 5%; }
+    main article .grid-index-container .imagen1-index {
+      grid-area: imagen1-index; }
+    main article .grid-index-container .imagen2-index {
+      grid-area: imagen2-index; }
+    main article .grid-index-container .imagen3-index {
+      grid-area: imagen3-index; }
+    main article .grid-index-container .a3-index {
+      grid-area: a3-index;
+      font-size: 25px; }
+    main article .grid-index-container .a1-index {
+      grid-area: a1-index;
+      font-size: 25px; }
+    main article .grid-index-container .a2-index {
+      grid-area: a2-index;
+      font-size: 25px; } }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
+
+main article section .contacto-h3 {
+  text-align: center;
+  font-size: 20px; }
+
+main article section form .formulario-fieldset {
+  width: 50%;
+  margin: 50px auto;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-template-areas: "label-nombre label-nombre" "nombre nombre" "label-email label-email" "email email" "label-telefono label-telefono" "telefono telefono" "label-mensaje label-mensaje" "mensaje mensaje" "none enviar";
+  gap: 10px; }
+  main article section form .formulario-fieldset #nombre, main article section form .formulario-fieldset #email, main article section form .formulario-fieldset #telefono, main article section form .formulario-fieldset #mensaje {
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px; }
+  main article section form .formulario-fieldset #mensaje {
+    grid-area: mensaje;
+    height: 150px; }
+  main article section form .formulario-fieldset label {
+    text-align: left;
+    padding-left: 10px; }
+  main article section form .formulario-fieldset #enviar {
+    grid-area: enviar;
+    background-color: gray;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    color: #000; }
+  main article section form .formulario-fieldset .label-nombre {
+    grid-area: label-nombre; }
+  main article section form .formulario-fieldset #nombre {
+    grid-area: nombre; }
+  main article section form .formulario-fieldset .label-email {
+    grid-area: label-email; }
+  main article section form .formulario-fieldset #email {
+    grid-area: email; }
+  main article section form .formulario-fieldset .label-telefono {
+    grid-area: label-telefono; }
+  main article section form .formulario-fieldset #telefono {
+    grid-area: telefono; }
+  main article section form .formulario-fieldset .label-mensaje {
+    grid-area: label-mensaje; }
+  main article section form .formulario-fieldset input {
+    caret-color: aqua; }
+    main article section form .formulario-fieldset input:focus {
+      transform: scale(2, 2);
+      border-radius: 30px; }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
+
+main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+  background-image: linear-gradient(to bottom, darkgrey, white);
+  height: 420px;
+  margin: 10px;
+  margin-bottom: 20px; }
+
+main article .grid-remeras-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+  main article .grid-remeras-container .remeras1 {
+    grid-area: remeras1; }
+  main article .grid-remeras-container .remeras2 {
+    grid-area: remeras2; }
+  main article .grid-remeras-container .remeras3 {
+    grid-area: remeras3; }
+  main article .grid-remeras-container .remeras4 {
+    grid-area: remeras4; }
+  main article .grid-remeras-container .remeras5 {
+    grid-area: remeras5; }
+  main article .grid-remeras-container .remeras6 {
+    grid-area: remeras6; }
+  main article .grid-remeras-container .remeras7 {
+    grid-area: remeras7; }
+  main article .grid-remeras-container .remeras8 {
+    grid-area: remeras8; }
+  main article .grid-remeras-container .remeras9 {
+    grid-area: remeras9; }
+  main article .grid-remeras-container .remeras10 {
+    grid-area: remeras10; }
+  main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    border: 2px solid #000;
+    border-radius: 10%;
+    box-shadow: 15px 15px 15px black; }
+  main article .grid-remeras-container .precio1 {
+    grid-area: precio1; }
+  main article .grid-remeras-container .precio2 {
+    grid-area: precio2; }
+  main article .grid-remeras-container .precio3 {
+    grid-area: precio3; }
+  main article .grid-remeras-container .precio4 {
+    grid-area: precio4; }
+  main article .grid-remeras-container .precio5 {
+    grid-area: precio5; }
+  main article .grid-remeras-container .precio6 {
+    grid-area: precio6; }
+  main article .grid-remeras-container .precio7 {
+    grid-area: precio7; }
+  main article .grid-remeras-container .precio8 {
+    grid-area: precio8; }
+  main article .grid-remeras-container .precio9 {
+    grid-area: precio9; }
+  main article .grid-remeras-container .precio10 {
+    grid-area: precio10; }
+  main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+    margin-left: 40%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000; }
+
+@media screen and (max-width: 2000px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 420px;
+    margin: 10px;
+    margin-bottom: 20px; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 20%;
+      box-shadow: 15px 15px 15px black; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      background-color: #000; } }
+
+@media screen and (max-width: 1700px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 420px;
+    margin: 10px;
+    margin-bottom: 20px; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 14.5%;
+      box-shadow: 15px 15px 15px black; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      background-color: #000; } }
+
+@media screen and (max-width: 1400px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 380px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 80%; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "remeras1 remeras2 remeras3"  "precio1 precio2 precio3"  "remeras4 remeras5 remeras6"  "precio4 precio5 precio6" "remeras7 remeras8 remeras9"  "precio7 precio8 precio9" "remeras10 none none" "precio10 none none"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 14.5%; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 992px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 90%; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "remeras1 remeras2 remeras3"  "precio1 precio2 precio3"  "remeras4 remeras5 remeras6"  "precio4 precio5 precio6" "remeras7 remeras8 remeras9"  "precio7 precio8 precio9" "remeras10 none none" "precio10 none none"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      width: 170px;
+      height: 270px;
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 10%;
+      margin-left: 16%; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 750px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: 10%; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "remeras1 remeras2"  "precio1 precio2"  "remeras3 remeras4"  "precio3 precio4" "remeras5 remeras6"  "precio5 precio6" "remeras7 remeras8" "precio7 precio8" "remeras9 remeras10" "precio9 precio10"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      width: 130px;
+      height: 230px;
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 10%;
+      margin-left: 18%; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 527px) {
+  main article .div-remeras1, main article .div-remeras2, main article .div-remeras3, main article .div-remeras4, main article .div-remeras5, main article .div-remeras6, main article .div-remeras7, main article .div-remeras8, main article .div-remeras9, main article .div-remeras10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 100%; }
+  main article .grid-remeras-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "remeras1"  "precio1"  "remeras2"  "precio2" "remeras3"  "precio3" "remeras4" "precio4" "remeras5" "precio5" "remeras6" "precio6" "remeras7" "precio7" "remeras8" "precio8" "remeras9" "precio9" "remeras10" "precio10"; }
+    main article .grid-remeras-container .remeras1 {
+      grid-area: remeras1; }
+    main article .grid-remeras-container .remeras2 {
+      grid-area: remeras2; }
+    main article .grid-remeras-container .remeras3 {
+      grid-area: remeras3; }
+    main article .grid-remeras-container .remeras4 {
+      grid-area: remeras4; }
+    main article .grid-remeras-container .remeras5 {
+      grid-area: remeras5; }
+    main article .grid-remeras-container .remeras6 {
+      grid-area: remeras6; }
+    main article .grid-remeras-container .remeras7 {
+      grid-area: remeras7; }
+    main article .grid-remeras-container .remeras8 {
+      grid-area: remeras8; }
+    main article .grid-remeras-container .remeras9 {
+      grid-area: remeras9; }
+    main article .grid-remeras-container .remeras10 {
+      grid-area: remeras10; }
+    main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
+      object-fit: cover;
+      align-content: center;
+      width: 200px;
+      height: 280px;
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 10%;
+      margin-left: 18%; }
+    main article .grid-remeras-container .precio1 {
+      grid-area: precio1; }
+    main article .grid-remeras-container .precio2 {
+      grid-area: precio2; }
+    main article .grid-remeras-container .precio3 {
+      grid-area: precio3; }
+    main article .grid-remeras-container .precio4 {
+      grid-area: precio4; }
+    main article .grid-remeras-container .precio5 {
+      grid-area: precio5; }
+    main article .grid-remeras-container .precio6 {
+      grid-area: precio6; }
+    main article .grid-remeras-container .precio7 {
+      grid-area: precio7; }
+    main article .grid-remeras-container .precio8 {
+      grid-area: precio8; }
+    main article .grid-remeras-container .precio9 {
+      grid-area: precio9; }
+    main article .grid-remeras-container .precio10 {
+      grid-area: precio10; }
+    main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
+      margin-left: 35%;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; } }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
+
+main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+  background-image: linear-gradient(to bottom, darkgrey, white);
+  height: 420px;
+  margin: 10px;
+  margin-bottom: 20px; }
+
+main article .grid-buzos-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+  main article .grid-buzos-container .buzos1 {
+    grid-area: buzos1; }
+  main article .grid-buzos-container .buzos2 {
+    grid-area: buzos2; }
+  main article .grid-buzos-container .buzos3 {
+    grid-area: buzos3; }
+  main article .grid-buzos-container .buzos4 {
+    grid-area: buzos4; }
+  main article .grid-buzos-container .buzos5 {
+    grid-area: buzos5; }
+  main article .grid-buzos-container .buzos6 {
+    grid-area: buzos6; }
+  main article .grid-buzos-container .buzos7 {
+    grid-area: buzos7; }
+  main article .grid-buzos-container .buzos8 {
+    grid-area: buzos8; }
+  main article .grid-buzos-container .buzos9 {
+    grid-area: buzos9; }
+  main article .grid-buzos-container .buzos10 {
+    grid-area: buzos10; }
+  main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    border: 2px solid #000;
+    border-radius: 10%;
+    box-shadow: 15px 15px 15px black; }
+  main article .grid-buzos-container .buzos-precio1 {
+    grid-area: buzos-precio1; }
+  main article .grid-buzos-container .buzos-precio2 {
+    grid-area: buzos-precio2; }
+  main article .grid-buzos-container .buzos-precio3 {
+    grid-area: buzos-precio3; }
+  main article .grid-buzos-container .buzos-precio4 {
+    grid-area: buzos-precio4; }
+  main article .grid-buzos-container .buzos-precio5 {
+    grid-area: buzos-precio5; }
+  main article .grid-buzos-container .buzos-precio6 {
+    grid-area: buzos-precio6; }
+  main article .grid-buzos-container .buzos-precio7 {
+    grid-area: buzos-precio7; }
+  main article .grid-buzos-container .buzos-precio8 {
+    grid-area: buzos-precio8; }
+  main article .grid-buzos-container .buzos-precio9 {
+    grid-area: buzos-precio9; }
+  main article .grid-buzos-container .buzos-precio10 {
+    grid-area: buzos-precio10; }
+  main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+    margin-left: 40%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000; }
+
+@media screen and (max-width: 2000px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 420px;
+    margin: 10px;
+    margin-bottom: 20px; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 20%;
+      box-shadow: 15px 15px 15px black; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      background-color: #000; } }
+
+@media screen and (max-width: 2000px) and (max-width: 1700px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 420px;
+    margin: 10px;
+    margin-bottom: 20px; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 14.5%;
+      box-shadow: 15px 15px 15px black; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      background-color: #000; } }
+
+@media screen and (max-width: 2000px) and (max-width: 1700px) and (max-width: 1400px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 380px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 80%; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "buzos1 buzos2 buzos3"  "buzos-precio1 buzos-precio2 buzos-precio3"  "buzos4 buzos5 buzos6"  "buzos-precio4 buzos-precio5 buzos-precio6" "buzos7 buzos8 buzos9"  "buzos-precio7 buzos-precio8 buzos-precio9" "buzos10 none none" "buzos-precio10 none none"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      width: 200px;
+      height: 300px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 14.5%; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 2000px) and (max-width: 1700px) and (max-width: 992px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 90%; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "buzos1 buzos2 buzos3"  "buzos-precio1 buzos-precio2 buzos-precio3"  "buzos4 buzos5 buzos6"  "buzos-precio4 buzos-precio5 buzos-precio6" "buzos7 buzos8 buzos9"  "buzos-precio7 buzos-precio8 buzos-precio9" "buzos10 none none" "buzos-precio10 none none"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      width: 170px;
+      height: 270px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 16%; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 2000px) and (max-width: 1700px) and (max-width: 750px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 68%;
+    margin-left: 10%; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "buzos1 buzos2"  "buzos-precio1 buzos-precio2"  "buzos3 buzos4"  "buzos-precio3 buzos-precio4" "buzos5 buzos6"  "buzos-precio5 buzos-precio6" "buzos7 buzos8" "buzos-precio7 buzos-precio8" "buzos9 buzos10" "buzos-precio9 buzos-precio10"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      width: 130px;
+      height: 230px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 18%; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 40%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px; } }
+
+@media screen and (max-width: 2000px) and (max-width: 1700px) and (max-width: 527px) {
+  main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, main article .div-buzos4, main article .div-buzos5, main article .div-buzos6, main article .div-buzos7, main article .div-buzos8, main article .div-buzos9, main article .div-buzos10 {
+    background-image: linear-gradient(to bottom, darkgrey, white);
+    height: 340px;
+    margin: 8px;
+    margin-bottom: 15px;
+    width: 100%; }
+  main article .grid-buzos-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "buzos1"  "buzos-precio1"  "buzos2"  "buzos-precio2" "buzos3"  "buzos-precio3" "buzos4" "buzos-precio4" "buzos5" "buzos-precio5" "buzos6" "buzos-precio6" "buzos7" "buzos-precio7" "buzos8" "buzos-precio8" "buzos9" "buzos-precio9" "buzos10" "buzos-precio10"; }
+    main article .grid-buzos-container .buzos1 {
+      grid-area: buzos1; }
+    main article .grid-buzos-container .buzos2 {
+      grid-area: buzos2; }
+    main article .grid-buzos-container .buzos3 {
+      grid-area: buzos3; }
+    main article .grid-buzos-container .buzos4 {
+      grid-area: buzos4; }
+    main article .grid-buzos-container .buzos5 {
+      grid-area: buzos5; }
+    main article .grid-buzos-container .buzos6 {
+      grid-area: buzos6; }
+    main article .grid-buzos-container .buzos7 {
+      grid-area: buzos7; }
+    main article .grid-buzos-container .buzos8 {
+      grid-area: buzos8; }
+    main article .grid-buzos-container .buzos9 {
+      grid-area: buzos9; }
+    main article .grid-buzos-container .buzos10 {
+      grid-area: buzos10; }
+    main article .grid-buzos-container .buzos1, main article .grid-buzos-container .buzos2, main article .grid-buzos-container .buzos3, main article .grid-buzos-container .buzos4, main article .grid-buzos-container .buzos5, main article .grid-buzos-container .buzos6, main article .grid-buzos-container .buzos7, main article .grid-buzos-container .buzos8, main article .grid-buzos-container .buzos9, main article .grid-buzos-container .buzos10 {
+      object-fit: cover;
+      align-content: center;
+      width: 200px;
+      height: 280px;
+      margin: 15px;
+      border: 2px solid #000;
+      border-radius: 10%;
+      margin-left: 18%; }
+    main article .grid-buzos-container .buzos-precio1 {
+      grid-area: buzos-precio1; }
+    main article .grid-buzos-container .buzos-precio2 {
+      grid-area: buzos-precio2; }
+    main article .grid-buzos-container .buzos-precio3 {
+      grid-area: buzos-precio3; }
+    main article .grid-buzos-container .buzos-precio4 {
+      grid-area: buzos-precio4; }
+    main article .grid-buzos-container .buzos-precio5 {
+      grid-area: buzos-precio5; }
+    main article .grid-buzos-container .buzos-precio6 {
+      grid-area: buzos-precio6; }
+    main article .grid-buzos-container .buzos-precio7 {
+      grid-area: buzos-precio7; }
+    main article .grid-buzos-container .buzos-precio8 {
+      grid-area: buzos-precio8; }
+    main article .grid-buzos-container .buzos-precio9 {
+      grid-area: buzos-precio9; }
+    main article .grid-buzos-container .buzos-precio10 {
+      grid-area: buzos-precio10; }
+    main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
+      margin-left: 35%;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; } }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 2000px*/
+/*BUZOS media max-width: 1700px*/
+/*BUZOS media max-width: 1400px*/
+/*BUZOS media max-width: 992px*/
+/*BUZOS media max-width: 750px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 2000px*/
+/*REMERAS media max-width: 1700px*/
+/*REMERAS media max-width: 1400px*/
+/*REMERAS media max-width: 992px*/
+/*REMERAS media max-width: 750px*/
+article .grid-catalogo-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+  article .grid-catalogo-container .img-catalogo1 {
+    grid-area: img-catalogo1; }
+  article .grid-catalogo-container .img-catalogo2 {
+    grid-area: img-catalogo2; }
+  article .grid-catalogo-container .img-catalogo3 {
+    grid-area: img-catalogo3; }
+  article .grid-catalogo-container .img-catalogo4 {
+    grid-area: img-catalogo4; }
+  article .grid-catalogo-container .img-catalogo5 {
+    grid-area: img-catalogo5; }
+  article .grid-catalogo-container .img-catalogo6 {
+    grid-area: img-catalogo6; }
+  article .grid-catalogo-container .img-catalogo7 {
+    grid-area: img-catalogo7; }
+  article .grid-catalogo-container .img-catalogo8 {
+    grid-area: img-catalogo8; }
+  article .grid-catalogo-container .img-catalogo9 {
+    grid-area: img-catalogo9; }
+  article .grid-catalogo-container .img-catalogo10 {
+    grid-area: img-catalogo10; }
+  article .grid-catalogo-container .img-catalogo11 {
+    grid-area: img-catalogo11; }
+  article .grid-catalogo-container .img-catalogo12 {
+    grid-area: img-catalogo12; }
+  article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    object-fit: cover;
+    border: 3px solid #000; }
+
+@media screen and (max-width: 2000px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3 img-catalogo4"  "img-catalogo5 img-catalogo6 img-catalogo7 img-catalogo8" "img-catalogo9 img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 300px;
+      height: 450px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 1450px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 250px;
+      height: 400px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 1100px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 250px;
+      height: 400px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 950px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 200px;
+      height: 350px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 800px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 150px;
+      height: 300px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 640px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 120px;
+      height: 250px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000; } }
+
+@media screen and (max-width: 550px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "img-catalogo1"  "img-catalogo2" "img-catalogo3" "img-catalogo4"  "img-catalogo5" "img-catalogo6" "img-catalogo7"  "img-catalogo8"  "img-catalogo9" "img-catalogo10" "img-catalogo11" "img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 280px;
+      height: 450px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000;
+      margin-left: 100px; } }
+
+@media screen and (max-width: 460px) {
+  article .grid-catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "img-catalogo1"  "img-catalogo2" "img-catalogo3" "img-catalogo4"  "img-catalogo5" "img-catalogo6" "img-catalogo7"  "img-catalogo8"  "img-catalogo9" "img-catalogo10" "img-catalogo11" "img-catalogo12"; }
+    article .grid-catalogo-container .img-catalogo1 {
+      grid-area: img-catalogo1; }
+    article .grid-catalogo-container .img-catalogo2 {
+      grid-area: img-catalogo2; }
+    article .grid-catalogo-container .img-catalogo3 {
+      grid-area: img-catalogo3; }
+    article .grid-catalogo-container .img-catalogo4 {
+      grid-area: img-catalogo4; }
+    article .grid-catalogo-container .img-catalogo5 {
+      grid-area: img-catalogo5; }
+    article .grid-catalogo-container .img-catalogo6 {
+      grid-area: img-catalogo6; }
+    article .grid-catalogo-container .img-catalogo7 {
+      grid-area: img-catalogo7; }
+    article .grid-catalogo-container .img-catalogo8 {
+      grid-area: img-catalogo8; }
+    article .grid-catalogo-container .img-catalogo9 {
+      grid-area: img-catalogo9; }
+    article .grid-catalogo-container .img-catalogo10 {
+      grid-area: img-catalogo10; }
+    article .grid-catalogo-container .img-catalogo11 {
+      grid-area: img-catalogo11; }
+    article .grid-catalogo-container .img-catalogo12 {
+      grid-area: img-catalogo12; }
+    article .grid-catalogo-container .img-catalogo1, article .grid-catalogo-container .img-catalogo2, article .grid-catalogo-container .img-catalogo3, article .grid-catalogo-container .img-catalogo4, article .grid-catalogo-container .img-catalogo5, article .grid-catalogo-container .img-catalogo6, article .grid-catalogo-container .img-catalogo7, article .grid-catalogo-container .img-catalogo8, article .grid-catalogo-container .img-catalogo9, article .grid-catalogo-container .img-catalogo10, article .grid-catalogo-container .img-catalogo11, article .grid-catalogo-container .img-catalogo12 {
+      width: 280px;
+      height: 420px;
+      margin: 30px;
+      object-fit: cover;
+      border: 3px solid #000;
+      margin-left: 10%; } }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
+  background-color: black; }
+
+footer .footer-h5 {
+  font-size: 16px;
+  color: #fff;
+  display: inline;
+  text-align: center; }
+
+footer .ul-footer {
+  display: flex;
+  justify-content: center; }
+  footer .ul-footer .li-footer {
+    display: flex; }
+    footer .ul-footer .li-footer .redes {
+      color: #fff;
+      margin: 5px; }
+      footer .ul-footer .li-footer .redes:hover {
+        color: lightcoral; }
+
+:root {
+  font-family: verdana; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../imagenes/fondo-lola.jpg); }

@@ -1,0 +1,14 @@
+@import "../variables/variables.scss";
+@import "../sass2/extend";
+header{
+        .fondo{
+            @extend .header-footer;
+            color: white;
+            .font-nav{
+                color: $white;
+                &:hover{
+                    color: lightcoral ;
+                }
+            }
+        }
+    }
