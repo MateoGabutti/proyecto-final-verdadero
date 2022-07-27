@@ -1,3 +1,79 @@
 @import "../variables/variables.scss";
 @import "../sass2/mixins";
 
+.grid-pantalones-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "pantalon1 pantalon2 pantalon3 pantalon4 pantalon5"
+    "PantPrecio1 PantPrecio2 PantPrecio3 PantPrecio4 PantPrecio5"
+    "pantalon6 pantalon7 pantalon8 pantalon9 pantalon10"
+    "PantPrecio6 PantPrecio7 PantPrecio8 PantPrecio9 PantPrecio10";
+    .pantalon1{
+        grid-area: pantalon1;
+    }
+    .pantalon2{
+        grid-area: pantalon2;
+    }
+    .pantalon3{
+        grid-area: pantalon3;
+    }
+    .pantalon4{
+        grid-area: pantalon4;
+    }
+    .pantalon5{
+        grid-area: pantalon5;
+    }
+    .pantalon6{
+        grid-area: pantalon6;
+    }
+    .pantalon7{
+        grid-area: pantalon7;
+    }
+    .pantalon8{
+        grid-area: pantalon8;
+    }
+    .pantalon9{
+        grid-area: pantalon9;
+    }
+    .pantalon10{
+        grid-area: pantalon10;
+    }
+    .pantalon1, .pantalon2, .pantalon3, .pantalon4, .pantalon5, .pantalon6, .pantalon7, .pantalon8, .pantalon9, .pantalon10{
+        @include remeras-del-1-al-10;
+        box-shadow: 15px 15px 15px black;
+    }
+    .PantPrecio1{
+        grid-area: PantPrecio1;
+    }
+    .PantPrecio2{
+        grid-area: PantPrecio2;
+    }
+    .PantPrecio3{
+        grid-area: PantPrecio3;
+    }
+    .PantPrecio4{
+        grid-area: PantPrecio4;
+    }
+    .PantPrecio5{
+        grid-area: PantPrecio5;
+    }
+    .PantPrecio6{
+        grid-area: PantPrecio6;
+    }
+    .PantPrecio7{
+        grid-area: PantPrecio7;
+    }
+    .PantPrecio8{
+        grid-area: PantPrecio8;
+    }
+    .PantPrecio9{
+        grid-area: PantPrecio9;
+    }.PantPrecio10{
+        grid-area: PantPrecio10;
+    }
+    .PantPrecio1, .PantPrecio2, .PantPrecio3, .PantPrecio4, .PantPrecio5, .PantPrecio6, .PantPrecio7, .PantPrecio8, .PantPrecio9, .PantPrecio10{
+        @include remeras-precio-del-1-al-10;
+        background-color: $black;
+    }
+}
