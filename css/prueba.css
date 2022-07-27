@@ -76,7 +76,8 @@ main article .grid-index-container {
   margin: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "imagen1-index imagen2-index imagen3-index" "a3-index a1-index a2-index"; }
+  grid-template-areas: "imagen1-index imagen2-index imagen3-index"
+ "a3-index a1-index a2-index"; }
   main article .grid-index-container .imagen1-index {
     grid-area: imagen1-index;
     margin: 8px;
@@ -119,7 +120,8 @@ main article .grid-index-container {
   main article .grid-index-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "imagen1-index imagen2-index imagen3-index" "a3-index a1-index a2-index"; }
+    grid-template-areas: "imagen1-index imagen2-index imagen3-index"
+ "a3-index a1-index a2-index"; }
     main article .grid-index-container .imagen1-index {
       grid-area: imagen1-index; }
     main article .grid-index-container .imagen2-index {
@@ -140,7 +142,12 @@ main article .grid-index-container {
   main article .grid-index-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "imagen1-index" "a3-index"  "imagen2-index" "a1-index" "imagen3-index" "a2-index"; }
+    grid-template-areas: "imagen1-index"
+ "a3-index" 
+ "imagen2-index"
+ "a1-index"
+ "imagen3-index"
+ "a2-index"; }
     main article .grid-index-container .imagen1-index, main article .grid-index-container .imagen2-index, main article .grid-index-container .imagen3-index {
       margin-left: 5%; }
     main article .grid-index-container .imagen1-index {
@@ -195,7 +202,15 @@ main article section form .formulario-fieldset {
   border: none;
   display: grid;
   grid-template-columns: 1fr 80px;
-  grid-template-areas: "label-nombre label-nombre" "nombre nombre" "label-email label-email" "email email" "label-telefono label-telefono" "telefono telefono" "label-mensaje label-mensaje" "mensaje mensaje" "none enviar";
+  grid-template-areas: "label-nombre label-nombre"
+ "nombre nombre"
+ "label-email label-email"
+ "email email"
+ "label-telefono label-telefono"
+ "telefono telefono"
+ "label-mensaje label-mensaje"
+ "mensaje mensaje"
+ "none enviar";
   gap: 10px; }
   main article section form .formulario-fieldset #nombre, main article section form .formulario-fieldset #email, main article section form .formulario-fieldset #telefono, main article section form .formulario-fieldset #mensaje {
     background-color: black;
@@ -273,7 +288,10 @@ main article .div-remeras1, main article .div-remeras2, main article .div-remera
 main article .grid-remeras-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+  grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+ "precio1 precio2 precio3 precio4 precio5"
+ "remeras6 remeras7 remeras8 remeras9 remeras10"
+ "precio6 precio7 precio8 precio9 precio10"; }
   main article .grid-remeras-container .remeras1 {
     grid-area: remeras1; }
   main article .grid-remeras-container .remeras2 {
@@ -338,7 +356,10 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+ "precio1 precio2 precio3 precio4 precio5"
+ "remeras6 remeras7 remeras8 remeras9 remeras10"
+ "precio6 precio7 precio8 precio9 precio10"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -404,7 +425,10 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5" "precio1 precio2 precio3 precio4 precio5" "remeras6 remeras7 remeras8 remeras9 remeras10" "precio6 precio7 precio8 precio9 precio10"; }
+    grid-template-areas: "remeras1 remeras2 remeras3 remeras4 remeras5"
+ "precio1 precio2 precio3 precio4 precio5"
+ "remeras6 remeras7 remeras8 remeras9 remeras10"
+ "precio6 precio7 precio8 precio9 precio10"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -471,7 +495,14 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "remeras1 remeras2 remeras3"  "precio1 precio2 precio3"  "remeras4 remeras5 remeras6"  "precio4 precio5 precio6" "remeras7 remeras8 remeras9"  "precio7 precio8 precio9" "remeras10 none none" "precio10 none none"; }
+    grid-template-areas: "remeras1 remeras2 remeras3" 
+ "precio1 precio2 precio3" 
+ "remeras4 remeras5 remeras6" 
+ "precio4 precio5 precio6"
+ "remeras7 remeras8 remeras9" 
+ "precio7 precio8 precio9"
+ "remeras10 none none"
+ "precio10 none none"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -536,7 +567,14 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "remeras1 remeras2 remeras3"  "precio1 precio2 precio3"  "remeras4 remeras5 remeras6"  "precio4 precio5 precio6" "remeras7 remeras8 remeras9"  "precio7 precio8 precio9" "remeras10 none none" "precio10 none none"; }
+    grid-template-areas: "remeras1 remeras2 remeras3" 
+ "precio1 precio2 precio3" 
+ "remeras4 remeras5 remeras6" 
+ "precio4 precio5 precio6"
+ "remeras7 remeras8 remeras9" 
+ "precio7 precio8 precio9"
+ "remeras10 none none"
+ "precio10 none none"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -602,7 +640,16 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "remeras1 remeras2"  "precio1 precio2"  "remeras3 remeras4"  "precio3 precio4" "remeras5 remeras6"  "precio5 precio6" "remeras7 remeras8" "precio7 precio8" "remeras9 remeras10" "precio9 precio10"; }
+    grid-template-areas: "remeras1 remeras2" 
+ "precio1 precio2" 
+ "remeras3 remeras4" 
+ "precio3 precio4"
+ "remeras5 remeras6" 
+ "precio5 precio6"
+ "remeras7 remeras8"
+ "precio7 precio8"
+ "remeras9 remeras10"
+ "precio9 precio10"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -667,7 +714,26 @@ main article .grid-remeras-container {
   main article .grid-remeras-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "remeras1"  "precio1"  "remeras2"  "precio2" "remeras3"  "precio3" "remeras4" "precio4" "remeras5" "precio5" "remeras6" "precio6" "remeras7" "precio7" "remeras8" "precio8" "remeras9" "precio9" "remeras10" "precio10"; }
+    grid-template-areas: "remeras1" 
+ "precio1" 
+ "remeras2" 
+ "precio2"
+ "remeras3" 
+ "precio3"
+ "remeras4"
+ "precio4"
+ "remeras5"
+ "precio5"
+ "remeras6"
+ "precio6"
+ "remeras7"
+ "precio7"
+ "remeras8"
+ "precio8"
+ "remeras9"
+ "precio9"
+ "remeras10"
+ "precio10"; }
     main article .grid-remeras-container .remeras1 {
       grid-area: remeras1; }
     main article .grid-remeras-container .remeras2 {
@@ -758,7 +824,10 @@ main article .div-buzos1, main article .div-buzos2, main article .div-buzos3, ma
 main article .grid-buzos-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+  grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5"
+ "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5"
+ "buzos6 buzos7 buzos8 buzos9 buzos10"
+ "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
   main article .grid-buzos-container .buzos1 {
     grid-area: buzos1; }
   main article .grid-buzos-container .buzos2 {
@@ -823,7 +892,10 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5"
+ "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5"
+ "buzos6 buzos7 buzos8 buzos9 buzos10"
+ "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -889,7 +961,10 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5" "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5" "buzos6 buzos7 buzos8 buzos9 buzos10" "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
+    grid-template-areas: "buzos1 buzos2 buzos3 buzos4 buzos5"
+ "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5"
+ "buzos6 buzos7 buzos8 buzos9 buzos10"
+ "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -956,7 +1031,14 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "buzos1 buzos2 buzos3"  "buzos-precio1 buzos-precio2 buzos-precio3"  "buzos4 buzos5 buzos6"  "buzos-precio4 buzos-precio5 buzos-precio6" "buzos7 buzos8 buzos9"  "buzos-precio7 buzos-precio8 buzos-precio9" "buzos10 none none" "buzos-precio10 none none"; }
+    grid-template-areas: "buzos1 buzos2 buzos3" 
+ "buzos-precio1 buzos-precio2 buzos-precio3" 
+ "buzos4 buzos5 buzos6" 
+ "buzos-precio4 buzos-precio5 buzos-precio6"
+ "buzos7 buzos8 buzos9" 
+ "buzos-precio7 buzos-precio8 buzos-precio9"
+ "buzos10 none none"
+ "buzos-precio10 none none"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -1021,7 +1103,14 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "buzos1 buzos2 buzos3"  "buzos-precio1 buzos-precio2 buzos-precio3"  "buzos4 buzos5 buzos6"  "buzos-precio4 buzos-precio5 buzos-precio6" "buzos7 buzos8 buzos9"  "buzos-precio7 buzos-precio8 buzos-precio9" "buzos10 none none" "buzos-precio10 none none"; }
+    grid-template-areas: "buzos1 buzos2 buzos3" 
+ "buzos-precio1 buzos-precio2 buzos-precio3" 
+ "buzos4 buzos5 buzos6" 
+ "buzos-precio4 buzos-precio5 buzos-precio6"
+ "buzos7 buzos8 buzos9" 
+ "buzos-precio7 buzos-precio8 buzos-precio9"
+ "buzos10 none none"
+ "buzos-precio10 none none"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -1087,7 +1176,16 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "buzos1 buzos2"  "buzos-precio1 buzos-precio2"  "buzos3 buzos4"  "buzos-precio3 buzos-precio4" "buzos5 buzos6"  "buzos-precio5 buzos-precio6" "buzos7 buzos8" "buzos-precio7 buzos-precio8" "buzos9 buzos10" "buzos-precio9 buzos-precio10"; }
+    grid-template-areas: "buzos1 buzos2" 
+ "buzos-precio1 buzos-precio2" 
+ "buzos3 buzos4" 
+ "buzos-precio3 buzos-precio4"
+ "buzos5 buzos6" 
+ "buzos-precio5 buzos-precio6"
+ "buzos7 buzos8"
+ "buzos-precio7 buzos-precio8"
+ "buzos9 buzos10"
+ "buzos-precio9 buzos-precio10"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -1152,7 +1250,26 @@ main article .grid-buzos-container {
   main article .grid-buzos-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "buzos1"  "buzos-precio1"  "buzos2"  "buzos-precio2" "buzos3"  "buzos-precio3" "buzos4" "buzos-precio4" "buzos5" "buzos-precio5" "buzos6" "buzos-precio6" "buzos7" "buzos-precio7" "buzos8" "buzos-precio8" "buzos9" "buzos-precio9" "buzos10" "buzos-precio10"; }
+    grid-template-areas: "buzos1" 
+ "buzos-precio1" 
+ "buzos2" 
+ "buzos-precio2"
+ "buzos3" 
+ "buzos-precio3"
+ "buzos4"
+ "buzos-precio4"
+ "buzos5"
+ "buzos-precio5"
+ "buzos6"
+ "buzos-precio6"
+ "buzos7"
+ "buzos-precio7"
+ "buzos8"
+ "buzos-precio8"
+ "buzos9"
+ "buzos-precio9"
+ "buzos10"
+ "buzos-precio10"; }
     main article .grid-buzos-container .buzos1 {
       grid-area: buzos1; }
     main article .grid-buzos-container .buzos2 {
@@ -1230,7 +1347,10 @@ main article .grid-buzos-container {
 article .grid-catalogo-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+  grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
   article .grid-catalogo-container .img-catalogo1 {
     grid-area: img-catalogo1; }
   article .grid-catalogo-container .img-catalogo2 {
@@ -1266,7 +1386,9 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3 img-catalogo4"  "img-catalogo5 img-catalogo6 img-catalogo7 img-catalogo8" "img-catalogo9 img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3 img-catalogo4" 
+ "img-catalogo5 img-catalogo6 img-catalogo7 img-catalogo8"
+ "img-catalogo9 img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1302,7 +1424,10 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1338,7 +1463,10 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1374,7 +1502,10 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1410,7 +1541,10 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1446,7 +1580,10 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3" "img-catalogo4 img-catalogo5 img-catalogo6" "img-catalogo7 img-catalogo8 img-catalogo9" "img-catalogo10 img-catalogo11 img-catalogo12"; }
+    grid-template-areas: "img-catalogo1 img-catalogo2 img-catalogo3"
+ "img-catalogo4 img-catalogo5 img-catalogo6"
+ "img-catalogo7 img-catalogo8 img-catalogo9"
+ "img-catalogo10 img-catalogo11 img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1482,7 +1619,18 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "img-catalogo1"  "img-catalogo2" "img-catalogo3" "img-catalogo4"  "img-catalogo5" "img-catalogo6" "img-catalogo7"  "img-catalogo8"  "img-catalogo9" "img-catalogo10" "img-catalogo11" "img-catalogo12"; }
+    grid-template-areas: "img-catalogo1" 
+ "img-catalogo2"
+ "img-catalogo3"
+ "img-catalogo4" 
+ "img-catalogo5"
+ "img-catalogo6"
+ "img-catalogo7" 
+ "img-catalogo8" 
+ "img-catalogo9"
+ "img-catalogo10"
+ "img-catalogo11"
+ "img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1519,7 +1667,18 @@ article .grid-catalogo-container {
   article .grid-catalogo-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "img-catalogo1"  "img-catalogo2" "img-catalogo3" "img-catalogo4"  "img-catalogo5" "img-catalogo6" "img-catalogo7"  "img-catalogo8"  "img-catalogo9" "img-catalogo10" "img-catalogo11" "img-catalogo12"; }
+    grid-template-areas: "img-catalogo1" 
+ "img-catalogo2"
+ "img-catalogo3"
+ "img-catalogo4" 
+ "img-catalogo5"
+ "img-catalogo6"
+ "img-catalogo7" 
+ "img-catalogo8" 
+ "img-catalogo9"
+ "img-catalogo10"
+ "img-catalogo11"
+ "img-catalogo12"; }
     article .grid-catalogo-container .img-catalogo1 {
       grid-area: img-catalogo1; }
     article .grid-catalogo-container .img-catalogo2 {
@@ -1585,3 +1744,9 @@ footer .ul-footer {
 
 body {
   background-image: url(../imagenes/fondo-lola.jpg); }
+
+.imagenRemeras{
+  height: 50%;
+  
+}
+

@@ -27,8 +27,8 @@ const divVacio = document.getElementById("divVacio")
 const botonRemera = document.getElementById("botonRemera")
     remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
-        <div class="card border-dark mb-3 col-5" id="remeras${indice}" style="max-width: 20rem; margin:4px; ">
-            <img src="${remeras.imagen}" class="card-img-top" alt="..."> 
+        <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
+            <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
             <div class="card-header"><h2>${remeras.precio}</h2></div>
             <div class="card-body">
                 <h4 class="card-title">${remeras.marca}</h4>

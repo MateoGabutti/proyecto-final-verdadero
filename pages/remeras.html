@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fondo">
-            <div class="container">
+            <div class="container justify-content-between">
                 <a class="navbar-brand animacion" href="#">FIKA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -55,17 +55,11 @@
                         <input class="form-control me-2 buscar rotar" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="elementosCarrito">🛒</button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Tu carrito</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                <div class="offcanvas-body" id="divMostrarCarrito">
-                
-            </div>
-            </div>
                 </div>
+                <div class="justify-content-end">
+                    <button class="btn btn-light " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="elementosCarrito">🛒</button>
+                </div>
+                
             </div>
         </nav>
     </header>
@@ -73,7 +67,15 @@
         <article>
             <div>
                 
-                <div class="row" id="divVacio"></div>
+                <div class="row container" id="divVacio"></div>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Tu carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" id="divMostrarCarrito">
+                </div>
             </div>
             
             
