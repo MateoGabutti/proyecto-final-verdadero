@@ -7,8 +7,8 @@ class FikaRemera{
         this.imagen = imagen
     }
 }
-
-const carrito = JSON.parse(localStorage.getItem("carrito")) ?? []
+// hago nullish y me ahorro codigo
+const carrito = JSON.parse(localStorage.getItem("carrito")) ?? [] 
 
 const remera1 = new FikaRemera (1, "adidas", "S", "$1900","../imagenes/remeras1.jpg")
 const remera2 = new FikaRemera (2, "nike", "M", "$1900", "../imagenes/remeras2.jpg")
@@ -22,9 +22,13 @@ const remera9 = new FikaRemera (9, "nike", "M", "$2100", "../imagenes/remeras9.j
 const remera10 = new FikaRemera (10, "puma", "S", "$2300", "../imagenes/remeras10.jpg")
 
 const remeras = [remera1, remera2, remera3, remera4, remera5, remera6, remera7, remera8, remera9, remera10]
-
+// desestructuracion
+let{marca, id, talle} = remera1
+console.log(marca,id,talle)
+let{precio} = remera7
+console.log(precio)
 const divVacio = document.getElementById("divVacio")
-const botonRemera = document.getElementById("botonRemera")
+
     remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
@@ -115,7 +119,7 @@ elementosCarrito.addEventListener("click", ()=> {
     })
 })
     
-// Probando 
+
 
 
 
