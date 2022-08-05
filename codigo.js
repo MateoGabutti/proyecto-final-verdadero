@@ -44,6 +44,7 @@ const divVacio = document.getElementById("divVacio")
         `
 
     })
+    
 
     /*remeras.forEach((remeras, indice) => {
         let cardButton = document.getElementById(`remeras${indice}`).lastElementChild.children[2]
@@ -88,6 +89,20 @@ remeras.forEach((remera, indice) =>{
         }
         console.log(carrito)
         localStorage.setItem("carrito", JSON.stringify(carrito))
+        Toastify({
+            text: "Producto agregado al carrito",
+            duration: 1000,
+            //destination: "https://github.com/apvarun/toastify-js",
+            //newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "linear-gradient(to right, red, orange, yellow)",
+            },
+            onClick: function(){} // Callback after click
+        }).showToast();
     })
     
 })
@@ -108,17 +123,33 @@ elementosCarrito.addEventListener("click", ()=> {
                     <button class="btn btn-danger">Eliminar del carrito</button>
             </div>
         </div>
+        
 
         `
-        let cardButtonEliminar = document.getElementById(`carrito${indice}`).lastElementChild.lastElementChild
+        
+    })
+    carrito.forEach((carro, indice)=>{
+    let cardButtonEliminar = document.getElementById(`carrito${indice}`).lastElementChild.lastElementChild
         cardButtonEliminar.addEventListener('click', () => {
             document.getElementById(`carrito${indice}`).remove()
+            console.log(`carrito ${indice}`)
             carrito.splice(indice, 1)
             localStorage.setItem("carrito", JSON.stringify(carrito))
-    })
+            console.log(carrito)
+        })
     })
 })
-    
+/*carrito.forEach((productoEnCarrito) => {
+    const botonEliminarProductoDeCarrito = document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).lastElementChild.lastElementChild
+    botonEliminarProductoDeCarrito.addEventListener("click", () => {
+        document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).remove()
+        carrito.splice(carrito.indexOf(productoEnCarrito), 1)
+        localStorage.setItem("carrito", JSON.stringify(carrito))
+        actualizarTotalAPagar(carrito)
+    })
+})*/
+
+// nuevo codigo prueba
 
 
 
