@@ -136,11 +136,6 @@ elementosCarrito.addEventListener("click", ()=> {
             carrito.splice(indice, 1)
             localStorage.setItem("carrito", JSON.stringify(carrito))
             console.log(carrito)
-            Swal.fire({
-                icon: 'success',
-                title: 'Excelente',
-                text: 'Se elimino correctamente del carrito',
-            })
         })
     })
 })
