@@ -1,4 +1,4 @@
-class FikaRemera{
+/*class FikaRemera{
     constructor(id, marca, talle, precio, imagen ){
         this.id = id
         this.marca = marca
@@ -29,6 +29,7 @@ let{precio} = remera7
 console.log(precio)
 const divVacio = document.getElementById("divVacio")
 
+// Creo los productos mediante el innerHTML
     remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
@@ -41,33 +42,19 @@ const divVacio = document.getElementById("divVacio")
             </div>
         </div>
         
+        
         `
 
     })
     
 
-    /*remeras.forEach((remeras, indice) => {
-        let cardButton = document.getElementById(`remeras${indice}`).lastElementChild.children[2]
-        //let cardButton = document.getElementById("cardButton")
-        cardButton.addEventListener('click', () => {
-            //document.getElementById(`remeras${indice}`)
-            carrito.push(remeras)
-            localStorage.setItem("carrito", JSON.stringify(carrito))
-            console.log(carrito)
-    })
-})
-    remeras.forEach((remeras, indice) => {
-        let cardButtonEliminar = document.getElementById(`remeras${indice}`).lastElementChild.lastElementChild
-        cardButtonEliminar.addEventListener('click', () => {
-            carrito.splice(indice, 1)
-            localStorage.setItem("carrito", JSON.stringify(carrito))
-            
-    })
-}) */
-
 const elementosCarrito = document.getElementById("elementosCarrito")
-const divMostrarCarrito = document.getElementById("divMostrarCarrito")
+const divMostrarCarrito = document.getElementById("divMostrarCarrito").children[0]
+const divVacio2 = document.getElementById("divMostrarCarrito").children[1]
+const divVacio3 = document.getElementById("divMostrarCarrito").children[2]
+const botonFinalizarCompra = document.getElementById("botonFinalizarCompra")
 let remeraCarrito, remeraAgregada
+//
 remeras.forEach((remera, indice) =>{
     let cardButton = document.getElementById(`remeras${indice}`).lastElementChild.children[2]
     cardButton.addEventListener('click', () => {
@@ -106,7 +93,7 @@ remeras.forEach((remera, indice) =>{
     })
     
 })
-
+// Hago aparecer los productos en el carrito
 elementosCarrito.addEventListener("click", ()=> {
     divMostrarCarrito.innerHTML = ""
     carrito.forEach((carro, indice)=>{
@@ -126,20 +113,37 @@ elementosCarrito.addEventListener("click", ()=> {
         
 
         `
+        divVacio2.innerHTML = `
+            <h4>${carro.precio}</h4>
+        `
+        divVacio3.innerHTML = `
+            <button id="botonFinalizarCompra" class="btn btn-dark">Finalizar Compra</button>
+            
+        
+        `
         
     })
+
+// Elimino los productos del carrito
     carrito.forEach((carro, indice)=>{
     let cardButtonEliminar = document.getElementById(`carrito${indice}`).lastElementChild.lastElementChild
         cardButtonEliminar.addEventListener('click', () => {
             document.getElementById(`carrito${indice}`).remove()
             console.log(`carrito ${indice}`)
-            carrito.splice(indice, 1)
+            carrito.splice(carrito.indexOf(carro), 1)
             localStorage.setItem("carrito", JSON.stringify(carrito))
             console.log(carrito)
         })
     })
 })
-/*carrito.forEach((productoEnCarrito) => {
+botonFinalizarCompra.addEventListener("click", ()=> {
+    Swal.fire({
+        icon: 'success',
+        title: 'Excelente',
+        text: 'Compra finalizada',
+    })
+})
+carrito.forEach((productoEnCarrito) => {
     const botonEliminarProductoDeCarrito = document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).lastElementChild.lastElementChild
     botonEliminarProductoDeCarrito.addEventListener("click", () => {
         document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).remove()
@@ -154,7 +158,9 @@ elementosCarrito.addEventListener("click", ()=> {
 
 
 
-
+fetch('../json/productos.json')
+.then(respuesta => respuesta.json)
+.then(productos => console.log(productos))
 
 
 
