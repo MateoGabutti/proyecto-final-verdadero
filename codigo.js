@@ -32,22 +32,8 @@ const divVacio = document.getElementById("divVacio")
 // Creo los productos mediante el innerHTML
 fetch('../json/productos.json')
 .then(respuesta => respuesta.json())
-.then(productos =>{
-    productos.forEach((remeras, indice) =>{
-        divVacio.innerHTML += `
-        <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
-            <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
-            <div class="card-header"><h2>${remeras.precio}</h2></div>
-            <div class="card-body">
-                <h4 class="card-title">${remeras.marca}</h4>
-                <p class="card-title"> talle: ${remeras.talle}</p>
-                <button class="btn btn-dark">Agregar al carrito</button>
-            </div>
-        </div>
-        `
-    })
-})
-    /*remeras.forEach((remeras, indice) =>{
+.then(productos => console.log(productos))
+    remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
             <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
@@ -62,7 +48,7 @@ fetch('../json/productos.json')
         
         `
 
-    })*/
+    })
     
 
 const elementosCarrito = document.getElementById("elementosCarrito")
