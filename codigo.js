@@ -1,4 +1,4 @@
-/*class FikaRemera{
+class FikaRemera{
     constructor(id, marca, talle, precio, imagen ){
         this.id = id
         this.marca = marca
@@ -10,16 +10,16 @@
 // hago nullish y me ahorro codigo
 const carrito = JSON.parse(localStorage.getItem("carrito")) ?? [] 
 
-const remera1 = new FikaRemera (1, "adidas", "S", "$1900","../imagenes/remeras1.jpg")
-const remera2 = new FikaRemera (2, "nike", "M", "$1900", "../imagenes/remeras2.jpg")
-const remera3 = new FikaRemera (3, "nike", "L", "$2000", "../imagenes/remeras3.jpg")
-const remera4 = new FikaRemera (4, "puma", "S", "$2100", "../imagenes/remeras4.jpg")
-const remera5 = new FikaRemera (5, "Gucci", "S", "$1800", "../imagenes/remeras5.jpg")
-const remera6 = new FikaRemera (6, "adidas", "S", "$2000", "../imagenes/remera6.webp")
-const remera7 = new FikaRemera (7, "balenciaga", "L", "$2000","../imagenes/remeras7.jpg")
-const remera8 = new FikaRemera (8, "adidas", "S", "$2000","../imagenes/remeras8.jpg")
-const remera9 = new FikaRemera (9, "nike", "M", "$2100", "../imagenes/remeras9.jpg")
-const remera10 = new FikaRemera (10, "puma", "S", "$2300", "../imagenes/remeras10.jpg")
+const remera1 = new FikaRemera (1, "adidas", "S", 1900,"../imagenes/remeras1.jpg")
+const remera2 = new FikaRemera (2, "nike", "M", 1900, "../imagenes/remeras2.jpg")
+const remera3 = new FikaRemera (3, "nike", "L", 2000, "../imagenes/remeras3.jpg")
+const remera4 = new FikaRemera (4, "puma", "S", 2100, "../imagenes/remeras4.jpg")
+const remera5 = new FikaRemera (5, "Gucci", "S", 1800, "../imagenes/remeras5.jpg")
+const remera6 = new FikaRemera (6, "adidas", "S", 2000, "../imagenes/remera6.webp")
+const remera7 = new FikaRemera (7, "balenciaga", "L", 2000,"../imagenes/remeras7.jpg")
+const remera8 = new FikaRemera (8, "adidas", "S", 2000,"../imagenes/remeras8.jpg")
+const remera9 = new FikaRemera (9, "nike", "M", 2100, "../imagenes/remeras9.jpg")
+const remera10 = new FikaRemera (10, "puma", "S", 2300, "../imagenes/remeras10.jpg")
 
 const remeras = [remera1, remera2, remera3, remera4, remera5, remera6, remera7, remera8, remera9, remera10]
 // desestructuracion
@@ -30,7 +30,24 @@ console.log(precio)
 const divVacio = document.getElementById("divVacio")
 
 // Creo los productos mediante el innerHTML
-    remeras.forEach((remeras, indice) =>{
+fetch('../json/productos.json')
+.then(respuesta => respuesta.json())
+.then(productos =>{
+    productos.forEach((remeras, indice) =>{
+        divVacio.innerHTML += `
+        <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
+            <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
+            <div class="card-header"><h2>${remeras.precio}</h2></div>
+            <div class="card-body">
+                <h4 class="card-title">${remeras.marca}</h4>
+                <p class="card-title"> talle: ${remeras.talle}</p>
+                <button class="btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        `
+    })
+})
+    /*remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
             <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
@@ -45,7 +62,7 @@ const divVacio = document.getElementById("divVacio")
         
         `
 
-    })
+    })*/
     
 
 const elementosCarrito = document.getElementById("elementosCarrito")
@@ -151,16 +168,14 @@ carrito.forEach((productoEnCarrito) => {
         localStorage.setItem("carrito", JSON.stringify(carrito))
         actualizarTotalAPagar(carrito)
     })
-})*/
+})
 
 // nuevo codigo prueba
 
 
 
 
-fetch('../json/productos.json')
-.then(respuesta => respuesta.json())
-.then(productos => console.log(productos))
+
 
 
 

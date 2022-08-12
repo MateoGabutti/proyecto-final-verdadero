@@ -3,70 +3,70 @@
         "id": 1,
         "marca": "Adidas",
         "talle": "S",
-        "precio": "$1900",
+        "precio": 1900,
         "imagen": "../imagenes/remeras1.jpg"
     },
     {
         "id": 2,
         "marca": "nike",
         "talle": "M",
-        "precio": "$1900",
+        "precio": 1900,
         "imagen": "../imagenes/remeras2.jpg"
     },
     {
         "id": 3,
         "marca": "nike",
         "talle": "L",
-        "precio": "$2000",
+        "precio": 2000,
         "imagen": "../imagenes/remeras3.jpg"
     },
     {
         "id": 4,
         "marca": "puma",
         "talle": "S",
-        "precio": "$2100",
+        "precio": 2100,
         "imagen": "../imagenes/remeras4.jpg"
     },
     {
         "id": 5,
         "marca": "Gucci",
         "talle": "S",
-        "precio": "$1800",
+        "precio": 1800,
         "imagen": "../imagenes/remeras5.jpg"
     },
     {
         "id": 6,
         "marca": "Adidas",
         "talle": "S",
-        "precio": "$2000",
+        "precio": 2000,
         "imagen": "../imagenes/remera6.webp"
     },
     {
         "id": 7,
         "marca": "balenciaga",
         "talle": "L",
-        "precio": "$2000",
+        "precio": 2000,
         "imagen": "../imagenes/remeras7.jpg"
     },
     {
         "id": 8,
         "marca": "Adidas",
         "talle": "S",
-        "precio": "$2000",
+        "precio": 2000,
         "imagen": "../imagenes/remeras8.jpg"
     },
     {
         "id": 9,
         "marca": "nike",
         "talle": "M",
-        "precio": "$2100",
+        "precio": 2100,
         "imagen": "../imagenes/remeras9.jpg"
     },
     {
         "id": 10,
         "marca": "puma",
         "talle": "S",
-        "precio": "$2300",
+        "precio": 2300,
         "imagen": "../imagenes/remeras10.jpg"
     }
 ]
