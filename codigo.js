@@ -159,7 +159,7 @@ carrito.forEach((productoEnCarrito) => {
 
 
 fetch('../json/productos.json')
-.then(respuesta => respuesta.json)
+.then(respuesta => respuesta.json())
 .then(productos => console.log(productos))
 
 
