@@ -30,23 +30,10 @@ console.log(precio)
 const divVacio = document.getElementById("divVacio")
 
 // Creo los productos mediante el innerHTML
-function sumaTotal(carro){
-    total += carro.precio
-    return total
-}
-
-function restaTotal(carro){
-    total -= (carro.precio * carro.cantidad)
-        divVacio2.innerHTML = `
-            <h4>$${total}</h4>
-        `
-}
-const botonFuncion = document.getElementById("botonFuncion")
-async function prueba(){
-    await fetch('../json/productos.json')
-    .then(respuesta => respuesta.json())
-    .then(productos => 
-    productos.forEach((remeras, indice) =>{
+fetch('../json/productos.json')
+.then(respuesta => respuesta.json())
+.then(productos => console.log(productos))
+    remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
             <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
@@ -60,30 +47,8 @@ async function prueba(){
         
         
         `
+
     })
-    )
-}
-botonFuncion.addEventListener("click", ()=> {
-    prueba()
-})
-
-
-    /*remeras.forEach((remeras, indice) =>{
-        divVacio.innerHTML += `
-        <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
-            <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
-            <div class="card-header"><h2>${remeras.precio}</h2></div>
-            <div class="card-body">
-                <h4 class="card-title">${remeras.marca}</h4>
-                <p class="card-title"> talle: ${remeras.talle}</p>
-                <button class="btn btn-dark">Agregar al carrito</button>
-            </div>
-        </div>
-        
-        
-        `
-
-    })*/
     
 
 const elementosCarrito = document.getElementById("elementosCarrito")
@@ -133,7 +98,17 @@ remeras.forEach((remera, indice) =>{
     
 })
 // Hago aparecer los productos en el carrito
+function sumaTotal(carro){
+    total += carro.precio
+    return total
+}
 
+function restaTotal(carro){
+    total -= (carro.precio * carro.cantidad)
+        divVacio2.innerHTML = `
+            <h4>$${total}</h4>
+        `
+}
 /*carrito.forEach((carro)=>{
     sumaTotal(carro)
 })*/
