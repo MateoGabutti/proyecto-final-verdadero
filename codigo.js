@@ -30,10 +30,45 @@ console.log(precio)
 const divVacio = document.getElementById("divVacio")
 
 // Creo los productos mediante el innerHTML
-fetch('../json/productos.json')
-.then(respuesta => respuesta.json())
-.then(productos => console.log(productos))
-    remeras.forEach((remeras, indice) =>{
+function sumaTotal(carro){
+    total += carro.precio
+    return total
+}
+
+function restaTotal(carro){
+    total -= (carro.precio * carro.cantidad)
+        divVacio2.innerHTML = `
+            <h4>$${total}</h4>
+        `
+}
+const botonFuncion = document.getElementById("botonFuncion")
+async function prueba(){
+    await fetch('../json/productos.json')
+    .then(respuesta => respuesta.json())
+    .then(productos => 
+    productos.forEach((remeras, indice) =>{
+        divVacio.innerHTML += `
+        <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
+            <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
+            <div class="card-header"><h2>${remeras.precio}</h2></div>
+            <div class="card-body">
+                <h4 class="card-title">${remeras.marca}</h4>
+                <p class="card-title"> talle: ${remeras.talle}</p>
+                <button class="btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        
+        
+        `
+    })
+    )
+}
+botonFuncion.addEventListener("click", ()=> {
+    prueba()
+})
+
+
+    /*remeras.forEach((remeras, indice) =>{
         divVacio.innerHTML += `
         <div class="card border-dark mb-3 col-md-4 mx-5 my-5" id="remeras${indice}" style="max-width: 20rem; ">
             <img src="${remeras.imagen}" class="card-img-top imagenRemeras" alt="..."> 
@@ -48,15 +83,15 @@ fetch('../json/productos.json')
         
         `
 
-    })
+    })*/
     
 
 const elementosCarrito = document.getElementById("elementosCarrito")
 const divMostrarCarrito = document.getElementById("divMostrarCarrito").children[0]
 const divVacio2 = document.getElementById("divMostrarCarrito").children[1]
 const divVacio3 = document.getElementById("divMostrarCarrito").children[2]
-const botonFinalizarCompra = document.getElementById("botonFinalizarCompra")
 let remeraCarrito, remeraAgregada
+let total = 0
 //
 remeras.forEach((remera, indice) =>{
     let cardButton = document.getElementById(`remeras${indice}`).lastElementChild.children[2]
@@ -77,6 +112,7 @@ remeras.forEach((remera, indice) =>{
             remeraCarrito = remeraAgregada
             carrito.push(remeraCarrito);
         }
+        sumaTotal(remeraCarrito)
         console.log(carrito)
         localStorage.setItem("carrito", JSON.stringify(carrito))
         Toastify({
@@ -97,6 +133,11 @@ remeras.forEach((remera, indice) =>{
     
 })
 // Hago aparecer los productos en el carrito
+
+/*carrito.forEach((carro)=>{
+    sumaTotal(carro)
+})*/
+
 elementosCarrito.addEventListener("click", ()=> {
     divMostrarCarrito.innerHTML = ""
     carrito.forEach((carro, indice)=>{
@@ -117,35 +158,33 @@ elementosCarrito.addEventListener("click", ()=> {
 
         `
         divVacio2.innerHTML = `
-            <h4>${carro.precio}</h4>
+            <h4>$${total}</h4>
         `
         divVacio3.innerHTML = `
             <button id="botonFinalizarCompra" class="btn btn-dark">Finalizar Compra</button>
-            
-        
-        `
-        
+            `
+        const botonFinalizarCompra = document.getElementById("botonFinalizarCompra")
+        botonFinalizarCompra.addEventListener("click", ()=> {
+            Swal.fire({
+            icon: 'success',
+            title: 'Excelente',
+            text: 'Compra finalizada',
+        })
     })
+})
 
 // Elimino los productos del carrito
     carrito.forEach((carro, indice)=>{
     let cardButtonEliminar = document.getElementById(`carrito${indice}`).lastElementChild.lastElementChild
         cardButtonEliminar.addEventListener('click', () => {
             document.getElementById(`carrito${indice}`).remove()
-            console.log(`carrito ${indice}`)
             carrito.splice(carrito.indexOf(carro), 1)
             localStorage.setItem("carrito", JSON.stringify(carrito))
-            console.log(carrito)
+            restaTotal(carro)
         })
     })
 })
-botonFinalizarCompra.addEventListener("click", ()=> {
-    Swal.fire({
-        icon: 'success',
-        title: 'Excelente',
-        text: 'Compra finalizada',
-    })
-})
+
 carrito.forEach((productoEnCarrito) => {
     const botonEliminarProductoDeCarrito = document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).lastElementChild.lastElementChild
     botonEliminarProductoDeCarrito.addEventListener("click", () => {
