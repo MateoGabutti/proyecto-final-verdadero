@@ -57,7 +57,7 @@ const divVacio2 = document.getElementById("divMostrarCarrito").children[1]
 const divVacio3 = document.getElementById("divMostrarCarrito").children[2]
 let remeraCarrito, remeraAgregada
 let total = 0
-//
+
 remeras.forEach((remera, indice) =>{
     let cardButton = document.getElementById(`remeras${indice}`).lastElementChild.children[2]
     cardButton.addEventListener('click', () => {
@@ -97,7 +97,7 @@ remeras.forEach((remera, indice) =>{
     })
     
 })
-// Hago aparecer los productos en el carrito
+
 function sumaTotal(carro){
     total += carro.precio
     return total
@@ -109,10 +109,8 @@ function restaTotal(carro){
             <h4>$${total}</h4>
         `
 }
-/*carrito.forEach((carro)=>{
-    sumaTotal(carro)
-})*/
 
+// Hago aparecer los productos en el carrito
 elementosCarrito.addEventListener("click", ()=> {
     divMostrarCarrito.innerHTML = ""
     carrito.forEach((carro, indice)=>{
@@ -170,7 +168,7 @@ carrito.forEach((productoEnCarrito) => {
     })
 })
 
-// nuevo codigo prueba
+
 
 
 
