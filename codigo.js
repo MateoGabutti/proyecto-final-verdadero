@@ -158,15 +158,7 @@ elementosCarrito.addEventListener("click", ()=> {
     })
 })
 
-carrito.forEach((productoEnCarrito) => {
-    const botonEliminarProductoDeCarrito = document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).lastElementChild.lastElementChild
-    botonEliminarProductoDeCarrito.addEventListener("click", () => {
-        document.getElementById(`productoEnCarrito${productoEnCarrito.id}`).remove()
-        carrito.splice(carrito.indexOf(productoEnCarrito), 1)
-        localStorage.setItem("carrito", JSON.stringify(carrito))
-        actualizarTotalAPagar(carrito)
-    })
-})
+
 
 
 
